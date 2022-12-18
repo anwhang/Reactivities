@@ -30,8 +30,5 @@ namespace API.Controllers
             //id = (id == null) ? new Guid() : id;
             return await _context.Activities.FindAsync(id);
         }
-
-        [HttpPost]
-        public async Task
-}
+    }
 }
